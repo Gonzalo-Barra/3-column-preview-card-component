@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 60px 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  padding: 40px;
+  text-align: center;
+}
+
+.card h1 {
+  font-family: "Big Shoulders Display", sans-serif;
+  padding: 30px 0px;
+  color: hsl(0, 0%, 95%);
+  text-align: start;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.card p {
+  color: hsla(0, 0%, 100%, 0.75);
+  padding-bottom: 20px;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 1.7;
+}
+
+.card button {
+  width: 130px;
+  background-color: hsl(0, 0%, 95%);
+  padding: 15px 20px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.sedan {
+  border-radius: 10px 10px 0px 0px;
+  background-color: hsl(31, 77%, 52%);
+}
+
+.sedan button {
+  color: hsl(31, 77%, 52%);
+}
+
+.sedan button:active {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+  border-color: hsl(0, 0%, 95%);
+  border-width: 2px;
+  border-style: solid;
+}
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+.suvs button {
+  color: hsl(184, 100%, 22%);
+}
+
+.suvs button:active {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+  border-color: hsl(0, 0%, 95%);
+  border-width: 2px;
+  border-style: solid;
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0px 0px 10px 10px;
+}
+
+.luxury button {
+  color: hsl(179, 100%, 13%);
+}
+
+.luxury button:active {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+  border-color: hsl(0, 0%, 95%);
+  border-width: 2px;
+  border-style: solid;
+}
+.card img {
+  max-width: 20%;
+  height: auto;
+}
+
+@media (min-width: 1399px) {
+  main {
+    height: 100vh;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+  }
+
+  .card img {
+    max-width: 30%;
+    height: auto;
+  }
+
+  .card {
+    width: 220px;
+    height: 400px;
+  }
+
+  .card button {
+    margin-top: 60px;
+  }
+
+  .sedan {
+    border-radius: 10px 0px 0px 10px;
+  }
+
+  .luxury {
+    border-radius: 0px 10px 10px 0px;
+  }
+}
