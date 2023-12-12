@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github Repository](https://github.com/Gonzalo-Barra/3-column-preview-card-component)
+- Live Site URL: [Github Page](https://gonzalo-barra.github.io/3-column-preview-card-component/)
 
 ## My process
 
@@ -45,7 +45,7 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
-- [Vite](https://vitejs.dev/) - React framework
+- [Vite](https://vitejs.dev/) - Build tool
 
 
 ### What I learned
